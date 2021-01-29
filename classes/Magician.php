@@ -38,7 +38,7 @@ class Magician extends Character
 
     public function shield() {
         $this->shield = true;
-        $status = "$this->name lancer un bouclier magique pour se protéger !";
+        $status = "$this->name lance un bouclier magique pour se protéger !";
         return $status;
     }
 

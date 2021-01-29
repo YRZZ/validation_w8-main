@@ -2,13 +2,13 @@
 
 abstract class Character
 {
-    private $healthPoints = 100;
+    protected $healthPoints = 100;
     protected $magicPoints = 20;
     public $damage = 15;
     public $name;
 
     public function __construct($name) {
-        $this->name == $name;
+        $this->name = $name;
     }
 
     public function isAlive() {
